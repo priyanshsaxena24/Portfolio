@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on My Website</title>
+    <link>http://localhost:1313/tags/hugo/</link>
+    <description>Recent content in Hugo on My Website</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 10 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Portfolio Website</title>
+      <link>http://localhost:1313/projects/youtube_watch/</link>
+      <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/youtube_watch/</guid>
+      <description>&lt;h1 id=&#34;portfolio-website&#34;&gt;Portfolio Website&lt;/h1&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This is my personal portfolio site, showcasing my projects, certifications, and blog posts. Built using Hugo, a fast static site generator, and the Gokarna theme for a clean and elegant design.&lt;/p&gt;&#xA;&lt;h2 id=&#34;technologies-used&#34;&gt;Technologies Used&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Hugo&lt;/li&gt;&#xA;&lt;li&gt;Gokarna Theme&lt;/li&gt;&#xA;&lt;li&gt;HTML/CSS&lt;/li&gt;&#xA;&lt;li&gt;Netlify (Deployment)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;key-features&#34;&gt;Key Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Custom content sections for Projects and Certificates&lt;/li&gt;&#xA;&lt;li&gt;Responsive layout&lt;/li&gt;&#xA;&lt;li&gt;Fast static delivery&lt;/li&gt;&#xA;&lt;li&gt;Easy content management with Markdown&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://your-portfolio-url.com&#34;&gt;Live Demo&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;repository&#34;&gt;Repository&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/yourusername/portfolio&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Certificates &amp; Achievements on My Website</title>
+    <link>http://localhost:1313/certificates/</link>
+    <description>Recent content in Certificates &amp; Achievements on My Website</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/certificates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Certificate Name</title>
+      <link>http://localhost:1313/certificates/data_science/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/certificates/data_science/</guid>
+      <description>&lt;h1 id=&#34;certificate-name&#34;&gt;Certificate Name&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Issued by:&lt;/strong&gt; Data Camp&lt;br&gt;&#xA;&lt;strong&gt;Date:&lt;/strong&gt; January 2024&lt;br&gt;&#xA;&lt;strong&gt;Credential ID:&lt;/strong&gt; ABC123456&lt;/p&gt;&#xA;&lt;h2 id=&#34;skills-demonstrated&#34;&gt;Skills Demonstrated&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Skill 1&lt;/li&gt;&#xA;&lt;li&gt;Skill 2&lt;/li&gt;&#xA;&lt;li&gt;Skill 3&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;verification&#34;&gt;Verification&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://verification-link.com&#34;&gt;Verify Certificate&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
