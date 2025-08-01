@@ -1,26 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>My Website</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on My Website</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Watch Analytics</title>
-      <link>http://localhost:1313/projects/example/</link>
-      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/example/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Watch Analytics&lt;/strong&gt; is a data-analysis project that offers tools and dashboards to visualize wristwatch metrics and trends. The project utilizes Python and modern visualization libraries to help users explore, compare, and gain insights from watch datasets.&lt;/p&gt;&#xA;&lt;h2 id=&#34;technologies-used&#34;&gt;Technologies Used&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python&lt;/li&gt;&#xA;&lt;li&gt;Pandas&lt;/li&gt;&#xA;&lt;li&gt;Matplotlib &amp;amp; Seaborn&lt;/li&gt;&#xA;&lt;li&gt;Jupyter Notebooks&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;key-features&#34;&gt;Key Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Clean, open-source code for custom analytics&lt;/li&gt;&#xA;&lt;li&gt;Exportable charts and reports&lt;/li&gt;&#xA;&lt;li&gt;Out-of-the-box demo datasets&lt;/li&gt;&#xA;&lt;li&gt;Extensible with new metrics or watch types&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;See the code, sample reports, and instructions on GitHub.&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Certificate Name</title>
-      <link>http://localhost:1313/certificates/data_science/</link>
-      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/certificates/data_science/</guid>
-      <description>&lt;h1 id=&#34;certificate-name&#34;&gt;Certificate Name&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Issued by:&lt;/strong&gt; Data Camp&lt;br&gt;&#xA;&lt;strong&gt;Date:&lt;/strong&gt; January 2024&lt;br&gt;&#xA;&lt;strong&gt;Credential ID:&lt;/strong&gt; ABC123456&lt;/p&gt;&#xA;&lt;h2 id=&#34;skills-demonstrated&#34;&gt;Skills Demonstrated&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Skill 1&lt;/li&gt;&#xA;&lt;li&gt;Skill 2&lt;/li&gt;&#xA;&lt;li&gt;Skill 3&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;verification&#34;&gt;Verification&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://verification-link.com&#34;&gt;Verify Certificate&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Website</title><link>https://example.org/</link><description>Recent content on My Website</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>YouTube Watch Analysis</title><link>https://example.org/projects/example/</link><pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate><guid>https://example.org/projects/example/</guid><description>&lt;p>&lt;strong>YouTube Watch Analysis&lt;/strong> is a full-stack application that visualizes your YouTube watch history using charts and custom metrics. It combines a Python-based backend and a React-based frontend to deliver personalized data insights.&lt;/p>
+&lt;h2 id="-project-overview">🗂 Project Overview&lt;/h2>
+&lt;p>This project parses YouTube watch history data, processes it using FastAPI and Python, and displays meaningful charts on a sleek React interface.&lt;/p>
+&lt;h3 id="-project-structure">📦 Project Structure&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Backend&lt;/strong>: FastAPI + Python scripts (for YouTube API, Selenium, data processing)&lt;/li>
+&lt;li>&lt;strong>Frontend&lt;/strong>: React + Chart.js (user input + chart rendering)&lt;/li>
+&lt;li>&lt;strong>Intermediates&lt;/strong>: JSON files to store and merge data&lt;/li>
+&lt;/ul>
+&lt;h2 id="-technologies-used">🚀 Technologies Used&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Frontend&lt;/strong>: React, Chart.js&lt;/li>
+&lt;li>&lt;strong>Backend&lt;/strong>: FastAPI, Python, Selenium, Google API Client&lt;/li>
+&lt;li>&lt;strong>Tools&lt;/strong>: JSON, uvicorn&lt;/li>
+&lt;/ul>
+&lt;h2 id="-api-endpoints">🔌 API Endpoints&lt;/h2>
+&lt;ul>
+&lt;li>&lt;code>POST /start-selenium-task&lt;/code>: Triggers a YouTube data extraction task&lt;/li>
+&lt;li>&lt;code>GET /status&lt;/code>: Checks the backend task progress&lt;/li>
+&lt;li>&lt;code>GET /data&lt;/code>: Returns the merged, processed watch data&lt;/li>
+&lt;/ul>
+&lt;h2 id="-how-to-run-the-project">🧪 How to Run the Project&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Start Backend&lt;/strong>:&lt;/p></description></item><item><title>Certificate Name</title><link>https://example.org/certificates/data_science/</link><pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate><guid>https://example.org/certificates/data_science/</guid><description>&lt;h1 id="certificate-name">Certificate Name&lt;/h1>
+&lt;p>&lt;strong>Issued by:&lt;/strong> Data Camp&lt;br>
+&lt;strong>Date:&lt;/strong> January 2024&lt;br>
+&lt;strong>Credential ID:&lt;/strong> ABC123456&lt;/p>
+&lt;h2 id="skills-demonstrated">Skills Demonstrated&lt;/h2>
+&lt;ul>
+&lt;li>Skill 1&lt;/li>
+&lt;li>Skill 2&lt;/li>
+&lt;li>Skill 3&lt;/li>
+&lt;/ul>
+&lt;h2 id="verification">Verification&lt;/h2>
+&lt;p>&lt;a href="https://verification-link.com">Verify Certificate&lt;/a>&lt;/p></description></item></channel></rss>
