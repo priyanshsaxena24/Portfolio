@@ -1,0 +1,46 @@
+baseURL = 'https://example.org/'
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+languageCode = "en"
+theme = "gokarna"
+title = "My Website"
+
+[params]
+# Portfolio-specific parameters
+accentColor = "#FF4D4D"
+avatarURL = "/images/avatar.jpeg"
+avatarSize = "size-m"
+description = "Your professional description"
+footer = "Priyansh Saxena"
+metaKeywords = ["portfolio", "projects", "certificates", "your-skills"]
+
+[menu]
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+pre = "<span data-feather='home'></span>"
+
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects/"
+weight = 2
+pre = "<span data-feather='folder'></span>"
+
+[[menu.main]]
+identifier = "certificates"
+name = "Certificates"
+url = "/certificates/"
+weight = 3
+pre = "<span data-feather='award'></span>"
+
+[[ menu.main]]
+name = "Posts"
+url = "/posts/"
+weight = 4
+
+[[menu.main]]
+name = "Tags"
+url = "/tags/"
+weight = 5
